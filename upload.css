@@ -1,0 +1,66 @@
+/* IT16010086
+Samarawickrama Y.M  */
+
+#progress-wrp {
+    border: 1px solid #0099CC;
+    padding: 1px;
+    position: relative;
+    height: 30px;
+    border-radius: 3px;
+    margin: 10px;
+    text-align: left;
+    background: #fff;
+    box-shadow: inset 1px 3px 6px rgba(0, 0, 0, 0.12);
+  }
+
+/*  Styling for the application body */
+  body{
+    background-color:#00a8ff
+}
+  
+/*  Styling for the progress bar */
+
+  #progress-wrp .progress-bar {
+    height: 100%;
+    border-radius: 3px;
+    background-color:#f7b731;
+    width: 0;
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.11);
+  }
+  
+  #progress-wrp .status {
+    top: 3px;
+    left: 50%;
+    position: absolute;
+    display: inline-block;
+    color: #00000f;
+    font-style: bold;
+  }
+
+  /*  Styling for the logo */
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  /*  Styling for the h1 heading */
+  h1{
+    text-align: center;
+    color :#ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+ 
+/*  Styling for the h3 heading */
+
+h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}

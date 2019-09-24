@@ -1,0 +1,64 @@
+/*  IT16010086
+Samarawickrama Y.M  */
+
+
+/*  Styling for the h1 heading */
+h1{
+    text-align: center;
+    color :#ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+/*  Styling for the h3 heading */
+h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+/*  Styling for the application body */
+body{
+    background-color:#00a8ff
+}
+
+/*  Styling for the logo */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+
+/*  Styling for the image used in the login button */
+#google {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+/*  Styling for the login button */
+#login{
+    width: 200px;
+    height: 70px;
+    padding: 0px;
+    line-height: 50px;
+    text-align: left;
+    text-indent: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    color: #333;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: white;
+    cursor: pointer;
+    margin: 20px;
+  }
