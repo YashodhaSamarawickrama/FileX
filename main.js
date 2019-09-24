@@ -1,28 +1,31 @@
 
+//IT16010086
+//Samarawickrama Y.M 
+
 $(document).ready(function(){
      
-    // client id of the project
+    // client id of FileX application
 
     var clientId = "104722647639-e155a6h0tjivluv09cck11t956qnvoj1.apps.googleusercontent.com";
 
-    // redirect_uri of the project
+    // redirect_uri for the user
 
     var redirect_uri = "http://localhost:3000/upload.html";
 
-    // scope of the project
+    // scope of the FileX application
 
     var scope = "https://www.googleapis.com/auth/drive";
 
-    // the url to which the user is redirected to
+    // the url to which the user is redirected to 
 
     var url = "";
 
 
-    // this is event click listener for the button
+    // the click event for the login button
 
     $("#login").click(function(){
 
-       // this is the method which will be invoked it takes four parameters
+       // once the user clicks , this method will be run. it takes four parameters 
 
        signIn(clientId,redirect_uri,scope,url);
 
@@ -40,11 +43,5 @@ $(document).ready(function(){
 
        window.location = url;
 
-
-
-
     }
-
-
-
 });
